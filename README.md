@@ -1,16 +1,47 @@
-# imagerz
+# Image Compressor Flutter App
 
-A new Flutter project.
+An image compressor Flutter app that allows users to select and compress images before saving them to the gallery.
+
+## Features
+
+- **Image Compression:** Compress images to reduce file size while maintaining acceptable quality.
+- **Gallery Integration:** Save compressed images directly to the device gallery.
+- **Image Picker:** Choose images from the device gallery for compression.
+ 
+## Packages Used
+
+- **gallery_saver:** A Flutter package for saving images to the device gallery.
+
+- **flutter_image_compress:** A Flutter package for compressing images to reduce file size.
+
+- **image_picker:** A Flutter plugin for selecting images from the device.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/qahor0v/Flutter-Image-Compressor.git
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install Dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the App:**
+    ```bash
+    flutter run
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. Launch the app on your device or emulator.
+
+2. Tap on the "Select Image" button to choose an image from your device gallery.
+
+3. The selected image will be displayed on the screen.
+
+4. Tap on the "Compress Image" button to compress the selected image.
+
+5. Once compressed, the app will prompt you to save the compressed image to the device gallery. Tap on "Save image" to complete the process.
+
